@@ -1,4 +1,4 @@
-# AT&T Spam Detector 📱
+# AT&T Spam Detector 
 
 Détecteur automatique de spam SMS basé uniquement sur le contenu des messages.
 Projet Deep Learning — certification Jedha.
@@ -63,18 +63,5 @@ contextuel pré-entraîné domine, avec seulement 3 époques de fine-tuning.
 - Piste : distillation ou quantification de DistilBERT pour une inférence
   temps réel à moindre coût
 
-## Exécution
-
-```bash
-pip install -r requirements.txt
-jupyter notebook att_spam_detector.ipynb
-```
-
-Le notebook télécharge automatiquement le dataset, GloVe (~130 Mo) et
-DistilBERT (~250 Mo). Entraînement DistilBERT : ~12 min sur CPU
-(3 époques × 4 min).
-
-**Note d'environnement** : le code utilise l'API TensorFlow de transformers,
-retirée en v5 — les versions sont épinglées dans `requirements.txt`
-(`transformers<5` + `tf-keras`, chargement des poids avec
-`use_safetensors=False`).
+## Auteur
+**Henintsoa HASINAVALONA**
