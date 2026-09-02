@@ -1,0 +1,10 @@
+pandas
+numpy
+scikit-learn
+plotly
+tensorflow>=2.15
+tf-keras
+transformers<5
+safetensors==0.4.5
+jupyter
+ipywidgets
